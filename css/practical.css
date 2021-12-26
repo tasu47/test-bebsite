@@ -1,0 +1,285 @@
+body {
+  background-color: rgba(0, 61, 122, 0.062);
+  text-align: center;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main-page {
+  background-color: rgba(95, 158, 160, 0.637);
+  height: 50px;
+  display: flex;
+}
+.main-page a {
+  text-decoration: none;
+  padding: 8px;
+  font-size: 22px;
+  color: rgba(15, 2, 2, 0.788);
+  padding-left: 100px;
+}
+.dvd {
+  background-color: #ddd8d800;
+  height: 600px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.icon {
+  height: 170px;
+  width: 170px;
+  margin-top: 60px;
+  margin-left: 60px;
+  position: relative;
+  border-radius: 50%;
+  padding: 7px;
+}
+.icon::after {
+  content: "";
+  display: block;
+  border: 2px solid yellow;
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  top: -5px;
+  border-radius: 50%;
+  left: -5px;
+}
+
+.icon img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.text {
+  margin-top: 100px;
+  margin-left: 100px;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px 15px rgba(42, 44, 44, 0.171);
+  display: inline-block;
+  height: 22%;
+  width: 30%;
+}
+.text h4{
+  font-size: 18px;
+  color: black;,
+  padding: 14px;
+  font-weight: normal;
+}
+.text p {
+  color: black;
+  text-align: right;
+
+  margin: 6px;
+}
+.line {
+  width: 220px;
+  height: 5px;
+  background-color: rgb(68, 170, 196);
+  margin-top: 300px;
+  left: 200px;
+  position: relative;
+  margin-top: auto;
+}
+.line::after {
+  content: "";
+  background-color: rgba(38, 149, 153, 0.637);
+  height: 17px;
+  width: 17px;
+  display: block;
+  border-radius: 50%;
+  top: -5px;
+  left: -14px;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(38, 122, 170);
+  height: 17px;
+  width: 17px;
+  display: block;
+  border-radius: 50%;
+  top: -4px;
+  left: -14px;
+}
+
+.line::before {
+  content: "";
+  background-color: rgba(38, 122, 170);
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  display: block;
+  border-radius: 50%;
+  top: -4px;
+  right: -14px;
+}
+ 
+
+
+
+.header {
+  background-color: black;
+  text-align: center;
+  padding: 8px;
+}
+.header h1 {
+  font-weight: 300;
+  color: aliceblue;
+  font-size: 28px;
+}
+.standard {
+  text-align: center;
+  padding: 12px;
+  border-bottom: 1px solid rgb(209, 204, 204);
+}
+.standard h1 {
+  font-size: 28px;
+}
+.detail {
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid rgb(209, 204, 204);
+}
+.detail h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.info {
+}
+
+.info h2 {
+  font-weight: 300;
+  padding-bottom: 5px;
+  width: 30px;
+  font-size: 18px;
+}
+.info h1 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.marks {
+  text-align: center;
+}
+.marks h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.num {
+  padding: 12px;
+  text-align: left;
+  border-collapse: collapse;
+  text-align: center;
+  border: 1px solid;
+}
+.num th {
+  padding: 5px;
+  border: 1px solid;
+  width: 400px;
+  border-collapse: collapse;
+}
+.num td {
+  border: 1px solid;
+}
+.passbook {
+  height: 450px;
+  width: 350px;
+  text-align: center;
+  margin: auto;
+  padding: 9px;
+}
+.uco-bank {
+  border: 2px solid cornflowerblue;
+  height: 400px;
+  width: 300px;
+  border-radius: 14px;
+  padding: 2px;
+  box-shadow: 1px red, 1px green;
+}
+.uco-bank1 {
+  border: 1px solid cornflowerblue;
+  height: 395px;
+  width: 295px;
+  padding: 2px;
+  border-radius: 10px;
+}
+.uco-bank2 {
+  border: 1px solid cornflowerblue;
+  height: 390px;
+  width: 290px;
+  padding: 2px;
+  border-radius: 6px;
+}
+h2 {
+  text-transform: uppercase;
+}
+h6 {
+  color: blue;
+  margin-left: 28%;
+}
+.uco-bank2 p {
+  border: 3px solid cornflowerblue;
+  width: 200px;
+  border-radius: 20px;
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
+  color: black;
+}
+.logo {
+  padding: 10px;
+}
+.logo img {
+  width: 100px;
+}
+.page {
+  background-color: black;
+  display: flex;
+  height: 520px;
+  width: 770px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+.box1 h3,
+p {
+  color: aliceblue;
+}
+.box1 {
+  align-items: center;
+  width: 60%;
+  margin-top: 30%;
+}
+
+.box2 {
+  background-color: aliceblue;
+  height: 480px;
+  width: 300px;
+  border-radius: 14px;
+  margin-top: 22px;
+}
+.box2 h4 {
+  margin-top: 45%;
+}
+.box2 h5 {
+  margin: 35px;
+  background-color: black;
+  color: aliceblue;
+  padding: 10px;
+  border-radius: 6px;
+}
+@media screen and (max-width: 600px) {
+  .page {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box1 {
+    margin-top: 10%;
+  }
+}
